@@ -87,8 +87,7 @@ module.exports = function(config){
         reporters: ['progress', 'coverage'],
 
         preprocessors: {
-            'dist/npm/igbulletgraph/**.js': ['coverage'],
-            'dist/npm/**.js': ['coverage']
+            'dist/npm/**/*.js': ['coverage']
         },
 
         coverageReporter: {
